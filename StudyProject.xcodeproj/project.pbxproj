@@ -13,6 +13,7 @@
 		EC5692112A34EEEF00870372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC56920F2A34EEEF00870372 /* Main.storyboard */; };
 		EC5692132A34EEF000870372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5692122A34EEF000870372 /* Assets.xcassets */; };
 		EC5692162A34EEF000870372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5692142A34EEF000870372 /* LaunchScreen.storyboard */; };
+		EC56921E2A34FED500870372 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC56921D2A34FED500870372 /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EC5692122A34EEF000870372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5692152A34EEF000870372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5692172A34EEF000870372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC56921D2A34FED500870372 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				EC5692092A34EEEF00870372 /* AppDelegate.swift */,
 				EC56920B2A34EEEF00870372 /* SceneDelegate.swift */,
 				EC56920D2A34EEEF00870372 /* ViewController.swift */,
+				EC56921D2A34FED500870372 /* secondViewController.swift */,
 				EC56920F2A34EEEF00870372 /* Main.storyboard */,
 				EC5692122A34EEF000870372 /* Assets.xcassets */,
 				EC5692142A34EEF000870372 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC56921E2A34FED500870372 /* secondViewController.swift in Sources */,
 				EC56920E2A34EEEF00870372 /* ViewController.swift in Sources */,
 				EC56920A2A34EEEF00870372 /* AppDelegate.swift in Sources */,
 				EC56920C2A34EEEF00870372 /* SceneDelegate.swift in Sources */,
