@@ -11,10 +11,12 @@ class secondViewController: UIViewController {
     @IBOutlet weak var secondVCmainLabel: UILabel!
     @IBOutlet weak var sysQuestionLabel: UILabel!
     @IBOutlet weak var userStatisticLabel: UILabel!
+    @IBOutlet weak var tempLabel: UILabel!
+    var GelenVeri1 = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        userStatisticLabel.text = GelenVeri1
         // Do any additional setup after loading the view.
     }
     
