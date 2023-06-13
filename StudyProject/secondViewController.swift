@@ -10,13 +10,13 @@ import UIKit
 class secondViewController: UIViewController {
     @IBOutlet weak var secondVCmainLabel: UILabel!
     @IBOutlet weak var sysQuestionLabel: UILabel!
-    @IBOutlet weak var userStatisticLabel: UILabel!
     @IBOutlet weak var tempLabel: UILabel!
-    var GelenVeri1 = ""
+    var counterData2 = ""
+    let savedCounter = UserDefaults.standard.object(forKey: "counter")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        userStatisticLabel.text = GelenVeri1
+        tempLabel.text = counterData2
         // Do any additional setup after loading the view.
     }
     
